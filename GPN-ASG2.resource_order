@@ -25,10 +25,13 @@
   "ResourceOrderSettings": [
     {"name":"sTower3","order":2,"path":"sprites/sTower3/sTower3.yy",},
     {"name":"sBullet","order":4,"path":"sprites/sBullet/sBullet.yy",},
+    {"name":"obj_Reg","order":6,"path":"objects/obj_Reg/obj_Reg.yy",},
     {"name":"oTower3","order":2,"path":"objects/oTower3/oTower3.yy",},
     {"name":"oTower2D","order":1,"path":"objects/oTower2D/oTower2D.yy",},
     {"name":"oTower2C","order":1,"path":"objects/oTower2C/oTower2C.yy",},
+    {"name":"sReg","order":5,"path":"sprites/sReg/sReg.yy",},
     {"name":"oTower3D","order":2,"path":"objects/oTower3D/oTower3D.yy",},
+    {"name":"obj_TowerParent","order":3,"path":"objects/obj_TowerParent/obj_TowerParent.yy",},
     {"name":"pth_enemy","order":1,"path":"paths/pth_enemy/pth_enemy.yy",},
     {"name":"oBullet","order":5,"path":"objects/oBullet/oBullet.yy",},
     {"name":"oTower2","order":1,"path":"objects/oTower2/oTower2.yy",},

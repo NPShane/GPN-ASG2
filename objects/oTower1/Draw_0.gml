@@ -1,5 +1,7 @@
 draw_self();
-draw_circle(x,y,range,true);
+if(mouseOver(x,y,sprite_width,sprite_height))
+	draw_circle(x,y,range,true);
+
 
 var en = instance_nearest(x,y,obj_enemy);
 if(en != noone){
@@ -11,7 +13,8 @@ if(en != noone){
 		}
 		
 		objectToShoot = en;
-		draw_line(x,y,en.x,en.y);
+		if(mouseOver(x,y,sprite_width,sprite_height))
+			draw_line(x,y,en.x,en.y);
 	}else{
 		shooting = false;
 		objectToShoot = noone;

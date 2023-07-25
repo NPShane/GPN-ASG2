@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_bullet",
+  "name": "obj_region",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -26,9 +26,9 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_bullet",
-    "path": "sprites/spr_bullet/spr_bullet.yy",
+    "name": "spr_region",
+    "path": "sprites/spr_region/spr_region.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }

@@ -1,1 +1,1 @@
-global.coins += 20; 
+global.coins += 20;

@@ -1,5 +1,5 @@
 x = mouse_x;
 y= mouse_y;
 
-if(place_meeting(x,y,obj_Reg) or place_meeting(x,y,obj_TowerParent)) col = c_red;
-else col = c_white;
+if(place_meeting(x,y,obj_region) or place_meeting(x,y,obj_tower)) colour = c_red;
+else colour = c_white;

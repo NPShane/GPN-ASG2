@@ -1,5 +1,6 @@
 draw_self();
-draw_circle(x,y,range,true);
+if(check_mouse_hover(x,y,sprite_width,sprite_height))
+	draw_circle(x,y,range,true);
 
 var _enemy = instance_nearest(x,y,obj_enemy);
 if(_enemy != noone){
@@ -11,7 +12,8 @@ if(_enemy != noone){
 		}
 		
 		target = _enemy;
-		draw_line(x,y,_enemy.x,_enemy.y);
+		if(check_mouse_hover(x,y,sprite_width,sprite_height))
+			draw_line(x,y,_enemy.x,_enemy.y);
 	}else{
 		shooting = false;
 		target = noone;

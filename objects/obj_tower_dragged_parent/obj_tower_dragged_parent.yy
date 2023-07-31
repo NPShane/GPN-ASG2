@@ -1,13 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_tower",
+  "name": "obj_tower_dragged_parent",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Tower Dragged",
+    "path": "folders/Objects/Tower Dragged.yy",
   },
   "parentObjectId": null,
   "persistent": false,

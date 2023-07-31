@@ -1,4 +1,5 @@
-range = 100;
-fire_rate = game_get_speed(gamespeed_fps) / 3;
-shooting = false;
-target = noone;
+/// @description Modded for skill
+// Inherit the parent event
+event_inherited();
+
+base_attack = attack;

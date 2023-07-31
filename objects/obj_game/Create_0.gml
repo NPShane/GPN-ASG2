@@ -12,3 +12,6 @@ global.spd = 1;
 global.level = 1;
 
 global.coins = 100;
+
+paused = false;
+paused_surf = -1;

@@ -1,4 +1,4 @@
 if(colour = c_white){
 	instance_destroy();
-	instance_create_depth(mouse_x,mouse_y,-1,obj_tower1);
+	instance_create_depth(x,y,-1,obj_tower1);
 }

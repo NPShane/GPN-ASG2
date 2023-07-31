@@ -1,2 +1,2 @@
-hp -= 20;
+hp -= other.damage;
 with(other) instance_destroy();

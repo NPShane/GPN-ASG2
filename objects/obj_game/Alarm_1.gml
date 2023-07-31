@@ -6,7 +6,7 @@ if(instance_number(obj_enemy) <= 0){
 	global.level++;
 	global.hp += 10;
 	global.spd += .2;
-	spawn_rate -= 2.3;
+	spawn_rate -= 2.2;
 	alarm[0] = spawn_rate;
 }
 

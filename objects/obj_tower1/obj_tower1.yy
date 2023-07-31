@@ -3,9 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_tower1",
   "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":8,"eventType":6,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -14,8 +13,8 @@
     "path": "folders/Objects/Towers.yy",
   },
   "parentObjectId": {
-    "name": "obj_tower",
-    "path": "objects/obj_tower/obj_tower.yy",
+    "name": "obj_tower_parent",
+    "path": "objects/obj_tower_parent/obj_tower_parent.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

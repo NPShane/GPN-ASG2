@@ -2,11 +2,11 @@
 
 if(instance_number(obj_enemy) <= 0){
 	spawn_count = 0;
-	spawn_amount += 5;
+	spawn_amount++;
 	global.level++;
 	global.hp += 10;
-	global.spd += 1;
-	spawn_rate -= 25;
+	global.spd += .2;
+	spawn_rate -= 2.3;
 	alarm[0] = spawn_rate;
 }
 

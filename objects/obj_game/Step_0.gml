@@ -2,7 +2,7 @@
 
 if(room == rm_game) {
 	// only allow pause ingame
-	if(keyboard_check_pressed(vk_escape)) {
+	if(keyboard_check_pressed(vk_space)) {
 		// pause on esc
 		paused = !paused;
 		if(!paused) {

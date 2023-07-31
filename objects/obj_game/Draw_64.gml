@@ -2,11 +2,9 @@
 switch (room) {
 	case rm_game:
 		// draw game GUI
-		draw_set_color(c_black);
 		draw_text(10,10,"Coins: " + string(global.coins));
 		draw_text(10,30,"Level: " + string(global.level));
 		draw_text(room_width - 140, 10, "SPACE to Pause");
-		draw_set_color(c_white);
 		
 		if (paused) {
 			// if paused draw pause GUI instead
@@ -21,7 +19,7 @@ switch (room) {
 			else {
 				// fill up the pause GUI if its surface is created
 				draw_surface(paused_surf, 0, 0);
-				draw_set_alpha(0.5);
+				draw_set_alpha(0.4);
 				draw_rectangle_colour(0, 0, room_width, room_height, c_black, c_black, c_black, c_black, false);
 				draw_set_alpha(1);
 				draw_set_halign(fa_center);

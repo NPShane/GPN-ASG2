@@ -5,7 +5,7 @@ var _color;
 
 if (skill_active) {
 	// change color to orange while active
-	_fill = 100;
+	_fill = time_source_get_time_remaining(skill_timer) / skill_duration * 100;
 	_color = c_orange;
 }
 else if (skill_ready) {
@@ -19,4 +19,4 @@ else if (!skill_ready) {
 	_color = c_aqua;
 }
 
-draw_healthbar(x-_offset, y+_offset, x+_offset, y+_offset+2, _fill, c_grey, c_white, _color, 0, true, false);
+draw_healthbar(x-_offset, y+_offset, x+_offset, y+_offset+2, _fill, c_grey, _color, _color, 0, true, false);

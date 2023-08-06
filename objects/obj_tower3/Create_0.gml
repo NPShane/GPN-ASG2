@@ -3,7 +3,7 @@ event_inherited();
 range = 300;
 fire_cooldown = game_get_speed(gamespeed_fps) / 2;
 projectile_speed += 20;
-attack = 40;
+attack = 60;
 
 base_attack = attack;
 recharge_skill = function()

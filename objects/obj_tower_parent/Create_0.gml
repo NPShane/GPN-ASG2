@@ -8,11 +8,11 @@ skill_active = false;
 
 // can be changed by children
 range = 200;
-fire_rate = game_get_speed(gamespeed_fps) / 3;
+fire_cooldown = game_get_speed(gamespeed_fps) / 3;
 attack = 20;
 
 projectile = obj_bullet;
-projectile_speed = 10;
+projectile_speed = 20;
 preferred_target = obj_enemy;
 
 // must override these values to set for skill

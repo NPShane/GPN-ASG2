@@ -2,13 +2,13 @@
 // Inherit the parent event
 event_inherited();
 
-base_attack = attack;
+base_fire_cooldown = fire_cooldown;
 recharge_skill = function()
 {
 	// set skill on cooldown
-	attack = base_attack;
-	show_debug_message("Skill ending");
+	fire_cooldown = base_fire_cooldown;
 	skill_active = false;
 	time_source_start(recharge_timer);
 }
+// redeclare skill_timer with new recharge_skill
 skill_timer = time_source_create(time_source_game, skill_duration, time_source_units_seconds, recharge_skill);

@@ -30,6 +30,7 @@
     {"name":"spr_region","order":5,"path":"sprites/spr_region/spr_region.yy",},
     {"name":"spr_enemy_fast","order":1,"path":"sprites/spr_enemy_fast/spr_enemy_fast.yy",},
     {"name":"obj_tower3","order":2,"path":"objects/obj_tower3/obj_tower3.yy",},
+    {"name":"spr_menu_bg","order":1,"path":"sprites/spr_menu_bg/spr_menu_bg.yy",},
     {"name":"obj_tower_clickable_parent","order":3,"path":"objects/obj_tower_clickable_parent/obj_tower_clickable_parent.yy",},
     {"name":"obj_tower2_dragged","order":1,"path":"objects/obj_tower2_dragged/obj_tower2_dragged.yy",},
     {"name":"obj_region","order":5,"path":"objects/obj_region/obj_region.yy",},

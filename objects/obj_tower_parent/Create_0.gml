@@ -12,7 +12,7 @@ fire_cooldown = game_get_speed(gamespeed_fps) / 3;
 attack = 20;
 
 projectile = obj_bullet;
-projectile_speed = 20;
+projectile_speed = 10;
 preferred_target = obj_enemy;
 
 // must override these values to set for skill

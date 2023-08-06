@@ -9,7 +9,7 @@ alarm[1] = 3 * game_get_speed(gamespeed_fps) * 5;
 
 global.hp = 100;
 global.spd = 2;
-global.level = 1;
+global.wave = 1;
 
 global.coins = 100;
 

@@ -3,7 +3,7 @@ switch (room) {
 	case rm_game:
 		// draw game GUI
 		draw_text(10,10,"Coins: " + string(global.coins));
-		draw_text(10,30,"Level: " + string(global.level));
+		draw_text(10,30,"Wave: " + string(global.wave));
 		draw_text(room_width - 140, 10, "SPACE to Pause");
 		
 		if (paused) {

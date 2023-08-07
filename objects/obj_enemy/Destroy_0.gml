@@ -1,3 +1,5 @@
 /// @description On death grant rewards
-
-global.coins += 20;
+if (path_position != 1) {
+	// if killed before reaching the end
+	global.coins += 20;
+}

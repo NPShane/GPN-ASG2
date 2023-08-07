@@ -12,6 +12,7 @@ global.spd = 2;
 global.wave = 1;
 
 global.coins = 100;
+global.lives = 5;
 
 paused = false;
 paused_surf = -1;

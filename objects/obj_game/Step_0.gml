@@ -1,16 +1,20 @@
-/// @description Pause if key pressed
+/// @description Check pause and loss
 
-if(room == rm_game) {
-	// only allow pause ingame
-	if(keyboard_check_pressed(vk_space)) {
+if (room == rm_game) {
+	// only allow pause/loss ingame
+	if (keyboard_check_pressed(vk_space)) {
 		// pause on esc
 		paused = !paused;
-		if(!paused) {
+		if (!paused) {
 			// unpause if going out of pause
 			instance_activate_all();
 			surface_free(paused_surf);
 			paused_surf = -1;
 		}
+	}
+	if (global.lives <= 0) {
+		// game has been lost
+		room_goto(rm_lose);
 	}
 }
 

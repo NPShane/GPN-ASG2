@@ -1,4 +1,4 @@
-/// @desc Follow cursor
+/// @desc Follow cursor & color change
 x = (mouse_x + 56 & ~63) - 32;
 y= (mouse_y + 56 & ~63) - 32;
 

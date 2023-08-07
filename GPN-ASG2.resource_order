@@ -40,6 +40,7 @@
     {"name":"pth_enemy_long","order":1,"path":"paths/pth_enemy_long/pth_enemy_long.yy",},
     {"name":"rm_lose","order":1,"path":"rooms/rm_lose/rm_lose.yy",},
     {"name":"obj_bullet","order":4,"path":"objects/obj_bullet/obj_bullet.yy",},
+    {"name":"OnRunStart","order":1,"path":"scripts/OnRunStart/OnRunStart.yy",},
     {"name":"obj_tower2","order":1,"path":"objects/obj_tower2/obj_tower2.yy",},
     {"name":"obj_tower3_clickable","order":2,"path":"objects/obj_tower3_clickable/obj_tower3_clickable.yy",},
     {"name":"spr_tower2","order":1,"path":"sprites/spr_tower2/spr_tower2.yy",},

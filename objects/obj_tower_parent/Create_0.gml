@@ -7,17 +7,17 @@ skill_ready = true;
 skill_active = false;
 
 // can be changed by children
-range = 200;
-fire_cooldown = game_get_speed(gamespeed_fps) / 3;
-attack = 20;
+range = global.range;
+fire_cooldown = global.fire_cooldown;
+attack = global.attack;
 
 projectile = obj_bullet;
-projectile_speed = 10;
+projectile_speed = global.projectile_speed;
 preferred_target = obj_enemy;
 
 // must override these values to set for skill
-skill_duration = 10;
-recharge_duration = 10;
+skill_duration = global.skill_duration;
+recharge_duration = global.recharge_duration;
 stop_recharge = function()
 {
 	// set skill to ready

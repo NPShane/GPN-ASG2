@@ -1,9 +1,9 @@
 /// @desc Modded for skill
 event_inherited();
-range = 300;
-fire_cooldown = game_get_speed(gamespeed_fps) / 2;
-projectile_speed += 20;
-attack = 60;
+range += 100; // range lengthened to 300
+fire_cooldown += 10; // cooldown increased to 30
+projectile_speed += 20; // speed increased to 30 (prevent funny-looking tracking)
+attack *= 3; // attack increased to 60
 
 base_attack = attack;
 recharge_skill = function()

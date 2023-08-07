@@ -3,7 +3,7 @@
 if(instance_number(obj_enemy) <= 0){
 	spawn_count = 0;
 	spawn_amount += 3;
-	global.wave++;
+	wave++;
 	global.hp += 30;
 	global.spd += .5;
 	spawn_cooldown -= 2.2;

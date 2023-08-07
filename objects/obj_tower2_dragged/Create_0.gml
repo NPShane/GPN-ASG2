@@ -3,3 +3,4 @@
 event_inherited();
 
 click_spawn = obj_tower2;
+range -= 120;

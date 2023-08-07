@@ -8,10 +8,11 @@ alarm[0] = 1;
 alarm[1] = 3 * game_get_speed(gamespeed_fps) * 5;
 
 global.hp = 100;
-global.spd = 2;
+global.spd = 1.5;
 global.wave = 1;
 
-global.coins = 100;
+global.coins = 100
+global.lives = 1;
 
 paused = false;
 paused_surf = -1;

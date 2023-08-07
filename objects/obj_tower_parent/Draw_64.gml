@@ -1,5 +1,5 @@
 /// @description Draw skillbar
-var _offset = 34;
+var _offset = 28;
 var _fill;
 var _color;
 
@@ -19,4 +19,4 @@ else if (!skill_ready) {
 	_color = c_aqua;
 }
 
-draw_healthbar(x-_offset, y+_offset, x+_offset, y+_offset+2, _fill, c_grey, _color, _color, 0, true, false);
+draw_healthbar(x - _offset, y + _offset, x + _offset, y + _offset + 2, _fill, c_grey, _color, _color, 0, true, false);

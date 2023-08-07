@@ -2,4 +2,5 @@
 if (path_position != 1) {
 	// if killed before reaching the end
 	global.coins += 20;
+	effect_create_above(ef_ring, x, y, .6, c_maroon);
 }

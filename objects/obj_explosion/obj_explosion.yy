@@ -1,17 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oTower2C",
+  "name": "obj_explosion",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Tower Clickables",
-    "path": "folders/Objects/Tower Clickables.yy",
+    "name": "Projectiles",
+    "path": "folders/Objects/Projectiles.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -27,11 +25,13 @@
   "physicsShape": 1,
   "physicsShapePoints": [],
   "physicsStartAwake": true,
-  "properties": [],
+  "properties": [
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"damage","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":1,},
+  ],
   "solid": false,
   "spriteId": {
-    "name": "sTower2",
-    "path": "sprites/sTower2/sTower2.yy",
+    "name": "spr_explosion",
+    "path": "sprites/spr_explosion/spr_explosion.yy",
   },
   "spriteMaskId": null,
   "visible": true,

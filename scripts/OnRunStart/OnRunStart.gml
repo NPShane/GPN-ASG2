@@ -8,6 +8,7 @@ function set_game_globals() {
 	// set player stats
 	global.coins = 100;
 	global.lives = 5;
+	global.placing = false;
 	
 	// set tower stats
 	global.attack = 20;

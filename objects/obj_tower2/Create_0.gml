@@ -3,6 +3,7 @@ event_inherited();
 range -= 120; // range shortened to 80
 fire_cooldown /= 2; // cooldown reduced to 10
 attack -= 6; // attack reduced to 14
+preferred_target = obj_enemy_fast;
 
 base_range = range;
 recharge_skill = function()

@@ -2,6 +2,7 @@
 // Inherit the parent event
 event_inherited();
 
+preferred_target = obj_enemy;
 base_fire_cooldown = fire_cooldown;
 recharge_skill = function()
 {

@@ -1,6 +1,6 @@
 /// @description Change stats for new wave
 
-if(instance_number(obj_enemy) <= 0){
+if(instance_number(obj_enemy_parent) <= 0){
 	spawn_count = 0;
 	spawn_amount += 3;
 	wave++;

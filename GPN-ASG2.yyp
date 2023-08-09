@@ -65,7 +65,7 @@
     {"id":{"name":"obj_tower1_dragged","path":"objects/obj_tower1_dragged/obj_tower1_dragged.yy",},},
     {"id":{"name":"obj_tower2_clickable","path":"objects/obj_tower2_clickable/obj_tower2_clickable.yy",},},
     {"id":{"name":"obj_tower3_dragged","path":"objects/obj_tower3_dragged/obj_tower3_dragged.yy",},},
-    {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
+    {"id":{"name":"obj_enemy_normal","path":"objects/obj_enemy_normal/obj_enemy_normal.yy",},},
     {"id":{"name":"pth_enemy_short","path":"paths/pth_enemy_short/pth_enemy_short.yy",},},
     {"id":{"name":"pth_enemy_long","path":"paths/pth_enemy_long/pth_enemy_long.yy",},},
     {"id":{"name":"obj_enemy_fast","path":"objects/obj_enemy_fast/obj_enemy_fast.yy",},},

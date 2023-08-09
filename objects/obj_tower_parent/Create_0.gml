@@ -13,7 +13,7 @@ attack = global.attack;
 
 projectile = obj_bullet;
 projectile_speed = global.projectile_speed;
-preferred_target = obj_enemy;
+preferred_target = obj_enemy_normal;
 
 // must override these values to set for skill
 skill_duration = global.skill_duration;

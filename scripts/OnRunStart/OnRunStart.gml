@@ -4,6 +4,7 @@ function set_game_globals() {
 	// set enemy stats
 	global.hp = 100;
 	global.spd = 2;
+	global.def = 20;
 
 	// set player stats
 	global.coins = 100;

@@ -13,8 +13,8 @@
     "path": "folders/Objects/Towers.yy",
   },
   "parentObjectId": {
-    "name": "obj_tower_parent",
-    "path": "objects/obj_tower_parent/obj_tower_parent.yy",
+    "name": "obj_tower",
+    "path": "objects/obj_tower/obj_tower.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

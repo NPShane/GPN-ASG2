@@ -12,8 +12,8 @@
     "path": "folders/Objects/Tower Clickables.yy",
   },
   "parentObjectId": {
-    "name": "obj_tower_clickable_parent",
-    "path": "objects/obj_tower_clickable_parent/obj_tower_clickable_parent.yy",
+    "name": "obj_tower_clickable",
+    "path": "objects/obj_tower_clickable/obj_tower_clickable.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

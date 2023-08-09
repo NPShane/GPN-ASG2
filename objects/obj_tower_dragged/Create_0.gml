@@ -3,5 +3,5 @@
 colour = c_white;
 
 // changeable by children
-click_spawn = obj_tower_parent;
+click_spawn = obj_tower;
 range = global.range;

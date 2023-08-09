@@ -12,8 +12,8 @@
     "path": "folders/Objects/Tower Dragged.yy",
   },
   "parentObjectId": {
-    "name": "obj_tower_dragged_parent",
-    "path": "objects/obj_tower_dragged_parent/obj_tower_dragged_parent.yy",
+    "name": "obj_tower_dragged",
+    "path": "objects/obj_tower_dragged/obj_tower_dragged.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

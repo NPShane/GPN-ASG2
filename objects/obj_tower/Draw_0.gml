@@ -6,7 +6,7 @@ if(check_mouse_hover(x,y,sprite_width,sprite_height)) draw_circle(x,y,range,true
 
 // select closest enemies in range
 var _enemy_preferred = instace_nearest_range(x, y, preferred_target, range + 15);
-var _enemy = instace_nearest_range(x, y, obj_enemy_parent, range + 15);
+var _enemy = instace_nearest_range(x, y, obj_enemy, range + 15);
 var _shoot = function(_target) {
 	if(!shooting){
 		// fire at target

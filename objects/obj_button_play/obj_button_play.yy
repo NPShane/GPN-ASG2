@@ -7,15 +7,15 @@
   ],
   "managed": true,
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_button_parent","path":"objects/obj_button_parent/obj_button_parent.yy",},"propertyId":{"name":"button_text","path":"objects/obj_button_parent/obj_button_parent.yy",},"value":"Start Run",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},"propertyId":{"name":"button_text","path":"objects/obj_button/obj_button.yy",},"value":"Start Run",},
   ],
   "parent": {
     "name": "Buttons",
     "path": "folders/Objects/Buttons.yy",
   },
   "parentObjectId": {
-    "name": "obj_button_parent",
-    "path": "objects/obj_button_parent/obj_button_parent.yy",
+    "name": "obj_button",
+    "path": "objects/obj_button/obj_button.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

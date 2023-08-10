@@ -9,7 +9,7 @@ function instace_nearest_range(_x, _y, _obj, _radius){
 	
 	// deactivate everything outside _radius
 	for (var _i = 0; _i < num; _i++ ) {
-		if (list[_i] && point_distance(list[_i].x, list[_i].y, _x, _y) > _radius)
+		if (point_distance(list[_i].x, list[_i].y, _x, _y) > _radius)
 			instance_deactivate_object(list[_i]);
 	}
 	

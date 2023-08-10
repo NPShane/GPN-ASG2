@@ -39,7 +39,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.6.0.92",
+    "IDEVersion": "2023.4.0.84",
   },
   "resources": [
     {"id":{"name":"CheckMouseHover","path":"scripts/CheckMouseHover/CheckMouseHover.yy",},},
@@ -65,6 +65,7 @@
     {"id":{"name":"obj_region","path":"objects/obj_region/obj_region.yy",},},
     {"id":{"name":"obj_tower1","path":"objects/obj_tower1/obj_tower1.yy",},},
     {"id":{"name":"obj_tower1_dragged","path":"objects/obj_tower1_dragged/obj_tower1_dragged.yy",},},
+    {"id":{"name":"rm_story","path":"rooms/rm_story/rm_story.yy",},},
     {"id":{"name":"obj_tower2_clickable","path":"objects/obj_tower2_clickable/obj_tower2_clickable.yy",},},
     {"id":{"name":"obj_tower3_dragged","path":"objects/obj_tower3_dragged/obj_tower3_dragged.yy",},},
     {"id":{"name":"obj_enemy_normal","path":"objects/obj_enemy_normal/obj_enemy_normal.yy",},},
@@ -75,7 +76,10 @@
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},},
     {"id":{"name":"OnRunStart","path":"scripts/OnRunStart/OnRunStart.yy",},},
     {"id":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
+    {"id":{"name":"spr_character","path":"sprites/spr_character/spr_character.yy",},},
     {"id":{"name":"spr_tiles","path":"sprites/spr_tiles/spr_tiles.yy",},},
+    {"id":{"name":"obj_intro","path":"objects/obj_intro/obj_intro.yy",},},
+    {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
     {"id":{"name":"ts_tiles","path":"tilesets/ts_tiles/ts_tiles.yy",},},
     {"id":{"name":"obj_tower2","path":"objects/obj_tower2/obj_tower2.yy",},},
     {"id":{"name":"spr_start_bg","path":"sprites/spr_start_bg/spr_start_bg.yy",},},
@@ -89,6 +93,7 @@
     {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
   ],
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_story","path":"rooms/rm_story/rm_story.yy",},},
     {"roomId":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
     {"roomId":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
     {"roomId":{"name":"rm_lose","path":"rooms/rm_lose/rm_lose.yy",},},

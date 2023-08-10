@@ -1,0 +1,1 @@
+if (time_skip_held == 0) time_skip_held++;

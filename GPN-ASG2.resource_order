@@ -29,6 +29,7 @@
     {"name":"spr_bullet","order":4,"path":"sprites/spr_bullet/spr_bullet.yy",},
     {"name":"spr_enemy_tanky","order":2,"path":"sprites/spr_enemy_tanky/spr_enemy_tanky.yy",},
     {"name":"obj_tower","order":3,"path":"objects/obj_tower/obj_tower.yy",},
+    {"name":"rm_story","order":3,"path":"rooms/rm_story/rm_story.yy",},
     {"name":"obj_tower_dragged","order":3,"path":"objects/obj_tower_dragged/obj_tower_dragged.yy",},
     {"name":"spr_region","order":5,"path":"sprites/spr_region/spr_region.yy",},
     {"name":"spr_enemy_fast","order":1,"path":"sprites/spr_enemy_fast/spr_enemy_fast.yy",},

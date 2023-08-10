@@ -1,4 +1,6 @@
 {
   "FolderOrderSettings": [],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"obj_cutscene","order":1,"path":"objects/obj_cutscene/obj_cutscene.yy",},
+  ],
 }

@@ -5,8 +5,8 @@
   "closed": false,
   "kind": 0,
   "parent": {
-    "name": "Tile Sets",
-    "path": "folders/Tile Sets.yy",
+    "name": "Paths",
+    "path": "folders/Paths.yy",
   },
   "points": [
     {"speed":100.0,"x":-32.0,"y":160.0,},

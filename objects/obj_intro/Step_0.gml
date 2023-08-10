@@ -17,7 +17,6 @@ current_line =  strings[next_line_index];
 
 if (keyboard_check_direct(vk_space)) {
     key_hold_duration++;
-    show_debug_message("space pressed");
 }
 
 if (key_hold_duration > 80) || (camera_x < 100) fadeout = true;

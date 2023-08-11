@@ -7,6 +7,7 @@
     {"name":"snd_gunshot2","order":2,"path":"sounds/snd_gunshot2/snd_gunshot2.yy",},
     {"name":"snd_BackgrounMusic1","order":7,"path":"sounds/snd_BackgrounMusic1/snd_BackgrounMusic1.yy",},
     {"name":"snd_BackgroundMusic3","order":6,"path":"sounds/snd_BackgroundMusic3/snd_BackgroundMusic3.yy",},
+    {"name":"snd_TakeDamage","order":10,"path":"sounds/snd_TakeDamage/snd_TakeDamage.yy",},
     {"name":"snd_gunshot1","order":3,"path":"sounds/snd_gunshot1/snd_gunshot1.yy",},
     {"name":"snd_btnclick","order":5,"path":"sounds/snd_btnclick/snd_btnclick.yy",},
     {"name":"snd_gunshot","order":1,"path":"sounds/snd_gunshot/snd_gunshot.yy",},

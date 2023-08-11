@@ -17,12 +17,10 @@ if (paused) {
 	else {
 		// fill up the pause GUI if its surface is created
 		draw_surface(paused_surf, 0, 0);
-		draw_set_alpha(0.4);
-		draw_rectangle_colour(0, 0, room_width, room_height, c_black, c_black, c_black, c_black, false);
-		draw_set_alpha(1);
+		draw_sprite_ext(spr_box, 0, 0, 0, room_width, room_height, 0, c_black, 0.4);
 		draw_set_halign(fa_center);
-		draw_text_transformed_colour(room_width / 2, room_height / 2 - 20, "PAUSED", 2, 2, 0, c_white, c_white, c_white, c_white, 1);
-		draw_text_transformed_colour(room_width / 2, room_height / 2 + 20, "SPACE to Unpause", 1, 1, 0, c_white, c_white, c_white, c_white, 1);
+		draw_text_transformed(room_width / 2, room_height / 2 - 20, "PAUSED", 2, 2, 0);
+		draw_text_color(room_width / 2, room_height / 2 + 20, "SPACE to Unpause", c_white, c_white, c_white, c_white, wave_between(1, 0, 1.5, 0));
 		draw_set_halign(fa_left);
 	}
 }

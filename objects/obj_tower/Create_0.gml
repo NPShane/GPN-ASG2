@@ -14,6 +14,7 @@ attack = global.attack;
 projectile = obj_bullet;
 projectile_speed = global.projectile_speed;
 preferred_target = obj_enemy_normal;
+fire_sound = snd_fire3;
 
 // must override these values to set for skill
 skill_duration = global.skill_duration;

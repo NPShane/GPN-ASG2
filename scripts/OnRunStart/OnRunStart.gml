@@ -26,3 +26,8 @@ function set_run_globals() {
 	global.lives = 5;
 	global.placing = false;
 }
+
+function wave_between(_from, _to, _duration, _offset) {
+	average = (_to - _from) * .5;
+	return _from + sin((((current_time * 0.001) + _duration * _offset) / _duration) * (pi * 2)) * average;
+}

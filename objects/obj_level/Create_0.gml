@@ -7,7 +7,7 @@ wave = 1;
 alarm[0] = 1;
 alarm[1] = game_get_speed(gamespeed_fps) * 3;
 
-audio_play_sound(snd_music1, 0, true);
+background_music = audio_play_sound(snd_music1, 0, true);
 set_run_globals();
 
 paused = false;

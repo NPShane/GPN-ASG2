@@ -1,6 +1,6 @@
 /// @description Init vars on spawn
 // not to be changed by children
-colour = c_white;
+alpha = 1;
 
 // changeable by children
 click_spawn = obj_tower;

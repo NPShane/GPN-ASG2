@@ -3,6 +3,7 @@
   "ResourceOrderSettings": [
     {"name":"snd_transition","order":9,"path":"sounds/snd_transition/snd_transition.yy",},
     {"name":"obj_cutscene","order":1,"path":"objects/obj_cutscene/obj_cutscene.yy",},
+    {"name":"obj_game","order":2,"path":"objects/obj_game/obj_game.yy",},
     {"name":"snd_music2","order":8,"path":"sounds/snd_music2/snd_music2.yy",},
     {"name":"snd_fire3","order":2,"path":"sounds/snd_fire3/snd_fire3.yy",},
     {"name":"snd_activate_skill","order":11,"path":"sounds/snd_activate_skill/snd_activate_skill.yy",},

@@ -2,8 +2,8 @@
 event_inherited();
 audio_play_sound(snd_place,0,false);
 range -= 120; // range shortened to 80
-fire_cooldown /= 2; // cooldown reduced to 10
-attack -= 6; // attack reduced to 14
+fire_cooldown /= 2; // cooldown reduced
+attack *= 0.7; // attack reduced
 preferred_target = obj_enemy_fast;
 
 base_range = range;

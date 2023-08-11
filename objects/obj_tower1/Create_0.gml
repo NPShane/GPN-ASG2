@@ -3,6 +3,7 @@
 event_inherited();
 audio_play_sound(snd_place,0,false);
 preferred_target = obj_enemy_normal;
+
 base_fire_cooldown = fire_cooldown;
 recharge_skill = function()
 {

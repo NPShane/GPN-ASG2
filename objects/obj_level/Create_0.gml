@@ -8,7 +8,7 @@ alarm[0] = 1;
 alarm[1] = 3 * game_get_speed(gamespeed_fps) * 5;
 
 audio_play_sound(snd_music1, 0, true);
-set_game_globals();
+set_run_globals();
 
 paused = false;
 paused_surf = -1;

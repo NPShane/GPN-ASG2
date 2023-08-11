@@ -11,4 +11,4 @@ if(instance_number(obj_enemy) <= 0){
 	alarm[0] = spawn_cooldown;
 }
 
-alarm[1] = game_get_speed(gamespeed_fps) * 5;
+alarm[1] = game_get_speed(gamespeed_fps) * 3;

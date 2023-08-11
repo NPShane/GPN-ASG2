@@ -3,3 +3,4 @@
 event_inherited();
 
 click_spawn = obj_tower1;
+spawned_from = obj_tower1_clickable;

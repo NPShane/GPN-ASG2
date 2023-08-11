@@ -1,4 +1,4 @@
-/// @desc Init Tower Variables
+/// @description Init Tower Variables
 cost = 0;
 name = "Tower";
 desc = "Base Tower. Something bugged out if you've seeing this.";

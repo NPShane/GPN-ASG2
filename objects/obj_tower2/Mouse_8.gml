@@ -1,5 +1,5 @@
 /// @description Skill: range increase
-var _range_increase = 2;
+var _range_increase = 4;
 
 if (skill_ready) {
 	// start skill only if charged

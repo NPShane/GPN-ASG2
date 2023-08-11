@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "snd_gunshot2",
+  "name": "snd_fire3",
   "audioGroupId": {
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
@@ -17,7 +17,7 @@
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "snd_gunshot2.mp3",
+  "soundFile": "snd_fire3.mp3",
   "type": 0,
   "volume": 0.2,
 }

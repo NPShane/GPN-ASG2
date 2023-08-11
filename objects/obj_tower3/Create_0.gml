@@ -1,6 +1,6 @@
 /// @desc Modded for skill
 event_inherited();
-audio_play_sound(snd_towerplaced,0,false);
+audio_play_sound(snd_place,0,false);
 range += 100; // range lengthened to 300
 fire_cooldown += 10; // cooldown increased to 30
 projectile_speed += 20; // speed increased to 30 (prevent funny-looking tracking)

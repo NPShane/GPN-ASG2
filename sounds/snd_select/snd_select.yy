@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "snd_BackgrounMusic1",
+  "name": "snd_select",
   "audioGroupId": {
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 224.64499,
+  "duration": 1.044898,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "snd_BackgrounMusic1.wav",
+  "soundFile": "snd_select.mp3",
   "type": 0,
-  "volume": 0.7,
+  "volume": 0.67,
 }

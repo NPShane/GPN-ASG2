@@ -1,6 +1,6 @@
 /// @desc Draw GUI depending on room
 switch (room) {
-	case rm_game:
+	case rm_level1:
 		// draw game GUI
 		draw_text(10, 10, $"Coins: {global.coins}");
 		draw_text(10, 50, $"Lives: {global.lives}");

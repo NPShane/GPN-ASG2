@@ -12,7 +12,7 @@ function set_game_globals() {
 	global.placing = false;
 	
 	// set tower stats
-	global.attack = 20;
+	global.attack = 40;
 	global.range = 200;
 	global.skill_duration = 10;
 	global.recharge_duration = 10;

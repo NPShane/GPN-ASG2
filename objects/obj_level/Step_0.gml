@@ -1,6 +1,6 @@
 /// @description Check pause and loss
 
-if (room == rm_game) {
+if (room == rm_level1) {
 	// only allow pause/loss ingame
 	if (keyboard_check_pressed(vk_space)) {
 		// pause on esc

@@ -1,7 +1,7 @@
 /// @description Modded for skill
 // Inherit the parent event
 event_inherited();
-
+audio_play_sound(snd_towerplaced,0,false);
 preferred_target = obj_enemy_normal;
 base_fire_cooldown = fire_cooldown;
 recharge_skill = function()

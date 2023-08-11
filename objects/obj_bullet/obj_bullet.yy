@@ -5,6 +5,9 @@
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_enemy_normal","path":"objects/obj_enemy_normal/obj_enemy_normal.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_enemy_fast","path":"objects/obj_enemy_fast/obj_enemy_fast.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_enemy_tanky","path":"objects/obj_enemy_tanky/obj_enemy_tanky.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],

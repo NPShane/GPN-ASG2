@@ -1,5 +1,6 @@
 /// @desc Modded for skill
 event_inherited();
+audio_play_sound(snd_towerplaced,0,false);
 range -= 120; // range shortened to 80
 fire_cooldown /= 2; // cooldown reduced to 10
 attack -= 6; // attack reduced to 14

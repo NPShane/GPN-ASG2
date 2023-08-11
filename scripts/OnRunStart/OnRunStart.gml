@@ -4,6 +4,7 @@ function set_game_globals() {
 	// set trackers
 	global.waves_cleared = 0;
 	global.kills = 0;
+	global.upgrade_tokens = 0;
 	
 	// set tower stats
 	global.attack = 60;

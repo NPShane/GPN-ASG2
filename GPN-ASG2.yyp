@@ -78,6 +78,7 @@
     {"id":{"name":"obj_enemy_fast","path":"objects/obj_enemy_fast/obj_enemy_fast.yy",},},
     {"id":{"name":"rm_lose","path":"rooms/rm_lose/rm_lose.yy",},},
     {"id":{"name":"snd_fire3","path":"sounds/snd_fire3/snd_fire3.yy",},},
+    {"id":{"name":"snd_activate_skill","path":"sounds/snd_activate_skill/snd_activate_skill.yy",},},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},},
     {"id":{"name":"snd_intro","path":"sounds/snd_intro/snd_intro.yy",},},
     {"id":{"name":"OnRunStart","path":"scripts/OnRunStart/OnRunStart.yy",},},

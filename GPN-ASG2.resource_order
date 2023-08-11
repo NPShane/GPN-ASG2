@@ -5,6 +5,7 @@
     {"name":"obj_cutscene","order":1,"path":"objects/obj_cutscene/obj_cutscene.yy",},
     {"name":"snd_music2","order":8,"path":"sounds/snd_music2/snd_music2.yy",},
     {"name":"snd_fire3","order":2,"path":"sounds/snd_fire3/snd_fire3.yy",},
+    {"name":"snd_activate_skill","order":11,"path":"sounds/snd_activate_skill/snd_activate_skill.yy",},
     {"name":"snd_music1","order":7,"path":"sounds/snd_music1/snd_music1.yy",},
     {"name":"snd_music3","order":6,"path":"sounds/snd_music3/snd_music3.yy",},
     {"name":"snd_take_damage","order":10,"path":"sounds/snd_take_damage/snd_take_damage.yy",},

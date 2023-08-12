@@ -16,6 +16,9 @@ function set_game_globals() {
 }
 
 function set_run_globals() {
+	// reset run trackers
+	global.level = 1;
+	
 	// reset enemy stats
 	global.hp = 100;
 	global.spd = 1.5;

@@ -11,4 +11,4 @@ draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 
 draw_sprite_ext(spr_box, 0, 0, 0, room_width, room_height, 0, c_black, fadeout_alpha);
-fadeout_alpha = max(fadeout_alpha - .005, .2);
+fadeout_alpha = max(fadeout_alpha - .003, .2);

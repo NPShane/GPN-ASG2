@@ -4,7 +4,10 @@ function set_game_globals() {
 	// set trackers
 	global.waves_cleared = 0;
 	global.kills = 0;
-	global.upgrade_tokens = 0;
+	global.upgrade_tokens = 200;
+	global.upgrade_level = 0;
+	global.max_upgrade_level = 10;
+	global.upgrade_cost = 2;
 	
 	// set tower stats
 	global.attack = 60;
@@ -12,7 +15,7 @@ function set_game_globals() {
 	global.skill_duration = 10;
 	global.recharge_duration = 10;
 	global.fire_cooldown = game_get_speed(gamespeed_fps);
-	global.projectile_speed = 10;
+	global.projectile_speed = 5;
 }
 
 function set_run_globals() {

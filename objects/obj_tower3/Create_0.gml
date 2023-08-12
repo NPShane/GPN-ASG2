@@ -3,7 +3,7 @@ event_inherited();
 
 range += 100; // range lengthened to 300
 fire_cooldown *= 1.5; // cooldown increased 
-projectile_speed += 20; // speed increased (prevent funny-looking tracking)
+// projectile_speed += 20; // speed increased (prevent funny-looking tracking)
 attack *= 2; // attack increased
 preferred_target = obj_enemy_tanky;
 fire_sound = snd_fire2;

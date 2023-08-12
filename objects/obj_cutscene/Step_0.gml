@@ -3,7 +3,7 @@ camera_set_view_pos(view_camera[0], camera_x, 122);
 camera_x = max(camera_x - .2, 0);
 
 if (!fadeout) fadeout_alpha = max(fadeout_alpha - .005, .2);
-else fadeout_alpha = min(fadeout_alpha + .1, 1);
+else fadeout_alpha = min(fadeout_alpha + .01, 1);
 
 letters_to_draw += .5;
 

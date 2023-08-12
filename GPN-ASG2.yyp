@@ -43,7 +43,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.6.0.92",
+    "IDEVersion": "2023.4.0.84",
   },
   "resources": [
     {"id":{"name":"CheckMouseHover","path":"scripts/CheckMouseHover/CheckMouseHover.yy",},},
@@ -71,7 +71,9 @@
     {"id":{"name":"obj_tower1","path":"objects/obj_tower1/obj_tower1.yy",},},
     {"id":{"name":"obj_tower1_dragged","path":"objects/obj_tower1_dragged/obj_tower1_dragged.yy",},},
     {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},},
+    {"id":{"name":"snd_activate_skill","path":"sounds/snd_activate_skill/snd_activate_skill.yy",},},
     {"id":{"name":"snd_music2","path":"sounds/snd_music2/snd_music2.yy",},},
+    {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
     {"id":{"name":"obj_tower2_clickable","path":"objects/obj_tower2_clickable/obj_tower2_clickable.yy",},},
     {"id":{"name":"obj_tower3_dragged","path":"objects/obj_tower3_dragged/obj_tower3_dragged.yy",},},
     {"id":{"name":"snd_pickup","path":"sounds/snd_pickup/snd_pickup.yy",},},
@@ -82,7 +84,6 @@
     {"id":{"name":"obj_button_store","path":"objects/obj_button_store/obj_button_store.yy",},},
     {"id":{"name":"obj_enemy_fast","path":"objects/obj_enemy_fast/obj_enemy_fast.yy",},},
     {"id":{"name":"snd_fire3","path":"sounds/snd_fire3/snd_fire3.yy",},},
-    {"id":{"name":"snd_activate_skill","path":"sounds/snd_activate_skill/snd_activate_skill.yy",},},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},},
     {"id":{"name":"snd_intro","path":"sounds/snd_intro/snd_intro.yy",},},
     {"id":{"name":"obj_lose","path":"objects/obj_lose/obj_lose.yy",},},

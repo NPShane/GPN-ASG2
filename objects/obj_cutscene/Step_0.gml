@@ -19,6 +19,9 @@ if (keyboard_check_direct(vk_space)) {
     key_hold_duration++;
 }
 
-if (key_hold_duration > 80) || (camera_x < 150) fadeout = true;
+if (key_hold_duration > 80) || (camera_x < 150) {
+    fadeout = true;
+    audio_sound_gain(snd_intro, 0, 1000); // fadeout
+}
 
 if (fadeout_alpha == 1) && (fadeout) room_goto(rm_level1);

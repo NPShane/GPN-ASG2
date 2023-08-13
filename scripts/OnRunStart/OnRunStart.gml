@@ -2,9 +2,15 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function set_game_globals() {
 	// set trackers
-	global.waves_cleared = 0;
-	global.kills = 0;
+	global.max_waves_cleared = 0;
+	global.max_kills = 0;
 	global.upgrade_tokens = 0;
+	global.upgrade_level = 0;
+	global.enhance_level = 0;
+	global.max_enhance_level = 10;
+	global.max_upgrade_level = 10;
+	global.upgrade_cost = 2;
+	global.enhance_cost = 2;
 	
 	// set tower stats
 	global.attack = 60;
@@ -12,12 +18,14 @@ function set_game_globals() {
 	global.skill_duration = 10;
 	global.recharge_duration = 10;
 	global.fire_cooldown = game_get_speed(gamespeed_fps);
-	global.projectile_speed = 10;
+	global.projectile_speed = 5;
 }
 
 function set_run_globals() {
 	// reset run trackers
 	global.level = 1;
+	global.kills = 0;
+	global.waves_cleared = 0;
 	
 	// reset enemy stats
 	global.hp = 100;

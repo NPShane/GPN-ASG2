@@ -89,7 +89,6 @@
     {"id":{"name":"spr_house3","path":"sprites/spr_house3/spr_house3.yy",},},
     {"id":{"name":"obj_enemy_fast","path":"objects/obj_enemy_fast/obj_enemy_fast.yy",},},
     {"id":{"name":"snd_fire3","path":"sounds/snd_fire3/snd_fire3.yy",},},
-    {"id":{"name":"snd_storytelling","path":"sounds/snd_storytelling/snd_storytelling.yy",},},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},},
     {"id":{"name":"snd_intro","path":"sounds/snd_intro/snd_intro.yy",},},
     {"id":{"name":"obj_lose","path":"objects/obj_lose/obj_lose.yy",},},

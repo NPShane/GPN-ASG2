@@ -2,9 +2,10 @@
 try
 {
 	direction = point_direction(x,y,target.x,target.y);
-	speed *= 1.05;
 }
 catch(_exception)
+{}
+finally
 {
-	instance_destroy(self);
+	speed *= 1.05;
 }

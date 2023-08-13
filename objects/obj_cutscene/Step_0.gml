@@ -3,7 +3,7 @@ camera_set_view_pos(view_camera[0], camera_x, 122);
 camera_x = max(camera_x - .1, 0);
 
 if (!fadeout) fadeout_alpha = max(fadeout_alpha - .005, .2);
-else fadeout_alpha = min(fadeout_alpha + .1, 1);
+else fadeout_alpha = min(fadeout_alpha + .01, 1);
 
 letters_to_draw += .28;
 
@@ -19,6 +19,9 @@ if (keyboard_check_direct(vk_space)) {
     key_hold_duration++;
 }
 
-if (key_hold_duration > 80) || (camera_x < 210) fadeout = true;
+if (key_hold_duration > 80) || (camera_x < 150) {
+    fadeout = true;
+    audio_sound_gain(snd_intro, 0, 1000); // fadeout
+}
 
 if (fadeout_alpha == 1) && (fadeout) room_goto(rm_level1);

@@ -16,7 +16,6 @@
     {"name":"obj_button_store","order":1,"path":"objects/obj_button_store/obj_button_store.yy",},
     {"name":"spr_house3","order":4,"path":"sprites/spr_house3/spr_house3.yy",},
     {"name":"snd_fire3","order":2,"path":"sounds/snd_fire3/snd_fire3.yy",},
-    {"name":"snd_storytelling","order":15,"path":"sounds/snd_storytelling/snd_storytelling.yy",},
     {"name":"obj_lose","order":3,"path":"objects/obj_lose/obj_lose.yy",},
     {"name":"obj_run","order":5,"path":"objects/obj_run/obj_run.yy",},
     {"name":"snd_enemy_death","order":12,"path":"sounds/snd_enemy_death/snd_enemy_death.yy",},

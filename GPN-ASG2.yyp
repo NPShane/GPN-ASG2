@@ -59,6 +59,7 @@
     {"id":{"name":"spr_enemy_fast","path":"sprites/spr_enemy_fast/spr_enemy_fast.yy",},},
     {"id":{"name":"spr_enemy_normal","path":"sprites/spr_enemy_normal/spr_enemy_normal.yy",},},
     {"id":{"name":"obj_tower3","path":"objects/obj_tower3/obj_tower3.yy",},},
+    {"id":{"name":"obj_button_enhance","path":"objects/obj_button_enhance/obj_button_enhance.yy",},},
     {"id":{"name":"obj_enemy_tanky","path":"objects/obj_enemy_tanky/obj_enemy_tanky.yy",},},
     {"id":{"name":"obj_cutscene","path":"objects/obj_cutscene/obj_cutscene.yy",},},
     {"id":{"name":"spr_menu_bg","path":"sprites/spr_menu_bg/spr_menu_bg.yy",},},

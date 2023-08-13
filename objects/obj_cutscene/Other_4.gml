@@ -1,1 +1,1 @@
-audio_play_sound(snd_intro,0,false);
+audio_play_sound(snd_storytelling,0,false);

@@ -1,6 +1,6 @@
 /// @description draw boxes 
 // draw boxes on top and bottom
-var _width_shrink = 150;
+var _width_shrink = 120;
 draw_sprite_ext(spr_box, 0, 0, 0, room_width, _width_shrink, 0, c_black, 1);
 draw_sprite_ext(spr_box, 0, 0, room_height - _width_shrink, room_width, _width_shrink, 0, c_black, 1);
 // draw text

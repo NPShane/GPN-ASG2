@@ -4,7 +4,7 @@ function set_game_globals() {
 	// set trackers
 	global.max_waves_cleared = 0;
 	global.max_kills = 0;
-	global.upgrade_tokens = 2000000;
+	global.upgrade_tokens = 20000;
 	global.upgrade_level = 0;
 	global.enhance_level = 0;
 	global.max_enhance_level = 10;

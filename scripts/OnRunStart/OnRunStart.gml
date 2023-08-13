@@ -2,8 +2,8 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function set_game_globals() {
 	// set trackers
-	global.waves_cleared = 0;
-	global.kills = 0;
+	global.max_waves_cleared = 0;
+	global.max_kills = 0;
 	global.upgrade_tokens = 200;
 	global.upgrade_level = 0;
 	global.max_upgrade_level = 10;
@@ -21,6 +21,8 @@ function set_game_globals() {
 function set_run_globals() {
 	// reset run trackers
 	global.level = 1;
+	global.kills = 0;
+	global.waves_cleared = 0;
 	
 	// reset enemy stats
 	global.hp = 100;
